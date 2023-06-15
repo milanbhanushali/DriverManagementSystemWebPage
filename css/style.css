@@ -710,7 +710,11 @@ Banner
 .effect-words-wrapper b.is-visible {
     position: relative;
 }
-
+@media screen and (max-width: 768px) { /* Adjust 768px to whatever width you consider 'mobile' */
+    .effect-words-wrapper b {
+        font-size: 11px; /* Adjust to the desired font-size */
+    }
+}
 .banner-text h1.effect-headline span {
     font-size: inherit;
 }
